@@ -29,7 +29,7 @@
     [super viewDidLoad];
     
     //重新定义导航条的状态
-    [MAMapServices sharedServices].apiKey = @"2e6b9f0a88b4a79366a13ce1ee9688b8";
+//    [MAMapServices sharedServices].apiKey = @"2e6b9f0a88b4a79366a13ce1ee9688b8";
     
     self.mapView = [[MAMapView alloc] initWithFrame:self.view.bounds];
     _mapView.delegate = self;

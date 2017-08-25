@@ -234,7 +234,7 @@ static const CGFloat SelectViewHeight = 45;
     [self.view addSubview:self.beenAndCollectView];
     
     //初始化地图
-    [MAMapServices sharedServices].apiKey = @"2e6b9f0a88b4a79366a13ce1ee9688b8";
+//    [MAMapServices sharedServices].apiKey = @"2e6b9f0a88b4a79366a13ce1ee9688b8";
     self.mapView = [[MAMapView alloc] initWithFrame:CGRectMake(0, 0, WNXAppWidth, 220)];
     self.mapView.delegate = self;
     self.mapView.showsScale = NO;

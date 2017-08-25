@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61C4AA17C69D1DB974D5C2FD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 946854A4AA1281519DDC3B5F /* libPods.a */; };
+		7272DBBBDD208A53F3355326 /* libPods-WNXHuntForCity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A78FB4B4F325B227A2E1DA3F /* libPods-WNXHuntForCity.a */; };
 		FA042C2A1B405B9C00E89A2C /* WNXLeftMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA042C291B405B9C00E89A2C /* WNXLeftMenuView.xib */; };
 		FA0D92B91B5BCEC4005B196F /* WNXInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0D92B71B5BCEC4005B196F /* WNXInfoCell.m */; };
 		FA0D92BA1B5BCEC4005B196F /* WNXInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0D92B81B5BCEC4005B196F /* WNXInfoCell.xib */; };
@@ -116,9 +116,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		040119732D48909DA2DE16E2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		7E29CCB8762E70FB8A17D5FD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		946854A4AA1281519DDC3B5F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D40DD2277782098A04813D /* Pods-WNXHuntForCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WNXHuntForCity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WNXHuntForCity/Pods-WNXHuntForCity.debug.xcconfig"; sourceTree = "<group>"; };
+		64254801C3EF00C1AF832852 /* Pods-WNXHuntForCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WNXHuntForCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-WNXHuntForCity/Pods-WNXHuntForCity.release.xcconfig"; sourceTree = "<group>"; };
+		A78FB4B4F325B227A2E1DA3F /* libPods-WNXHuntForCity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WNXHuntForCity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA042C241B40570500E89A2C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FA042C291B405B9C00E89A2C /* WNXLeftMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WNXLeftMenuView.xib; sourceTree = "<group>"; };
 		FA0D92B61B5BCEC4005B196F /* WNXInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNXInfoCell.h; sourceTree = "<group>"; };
@@ -290,7 +290,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61C4AA17C69D1DB974D5C2FD /* libPods.a in Frameworks */,
+				7272DBBBDD208A53F3355326 /* libPods-WNXHuntForCity.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,19 +304,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8312D053D5C7456189194355 /* Frameworks */ = {
+		88AE13A32ABA2B374D99CE09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				946854A4AA1281519DDC3B5F /* libPods.a */,
+				A78FB4B4F325B227A2E1DA3F /* libPods-WNXHuntForCity.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E651304E89D8525D7D6D6676 /* Pods */ = {
+		C0FD49F5F8232CA02825EFD7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7E29CCB8762E70FB8A17D5FD /* Pods.debug.xcconfig */,
-				040119732D48909DA2DE16E2 /* Pods.release.xcconfig */,
+				25D40DD2277782098A04813D /* Pods-WNXHuntForCity.debug.xcconfig */,
+				64254801C3EF00C1AF832852 /* Pods-WNXHuntForCity.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -479,8 +479,8 @@
 				FAAAB1361B400E9B004D7C61 /* WNXHuntForCity */,
 				FAAAB1501B400E9B004D7C61 /* WNXHuntForCityTests */,
 				FAAAB1351B400E9B004D7C61 /* Products */,
-				E651304E89D8525D7D6D6676 /* Pods */,
-				8312D053D5C7456189194355 /* Frameworks */,
+				C0FD49F5F8232CA02825EFD7 /* Pods */,
+				88AE13A32ABA2B374D99CE09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -916,11 +916,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAAAB1571B400E9B004D7C61 /* Build configuration list for PBXNativeTarget "WNXHuntForCity" */;
 			buildPhases = (
-				A6EE3DFD116854A748DB1017 /* Check Pods Manifest.lock */,
+				95F2880387F08A9FD36F8481 /* [CP] Check Pods Manifest.lock */,
 				FAAAB1301B400E9B004D7C61 /* Sources */,
 				FAAAB1311B400E9B004D7C61 /* Frameworks */,
 				FAAAB1321B400E9B004D7C61 /* Resources */,
-				9A2750EBB791DEADCF47BD47 /* Copy Pods Resources */,
+				1C927B46ABCBCE9FB1ECC335 /* [CP] Embed Pods Frameworks */,
+				DA9AFDFDA875F1E2238F4B6F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -961,6 +962,8 @@
 				TargetAttributes = {
 					FAAAB1331B400E9B004D7C61 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = ZQNBAU4E8A;
+						ProvisioningStyle = Automatic;
 					};
 					FAAAB14C1B400E9B004D7C61 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -1034,34 +1037,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9A2750EBB791DEADCF47BD47 /* Copy Pods Resources */ = {
+		1C927B46ABCBCE9FB1ECC335 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WNXHuntForCity/Pods-WNXHuntForCity-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A6EE3DFD116854A748DB1017 /* Check Pods Manifest.lock */ = {
+		95F2880387F08A9FD36F8481 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WNXHuntForCity-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9AFDFDA875F1E2238F4B6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WNXHuntForCity/Pods-WNXHuntForCity-resources.sh",
+				"${PODS_ROOT}/AMap2DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WNXHuntForCity/Pods-WNXHuntForCity-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1261,12 +1286,13 @@
 		};
 		FAAAB1581B400E9B004D7C61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E29CCB8762E70FB8A17D5FD /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 25D40DD2277782098A04813D /* Pods-WNXHuntForCity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Quan Gan (4MSLTPG67F)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Quan Gan (4MSLTPG67F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZQNBAU4E8A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WNXHuntForCity/PrefixHeader.pch";
 				INFOPLIST_FILE = WNXHuntForCity/Info.plist;
@@ -1278,11 +1304,13 @@
 		};
 		FAAAB1591B400E9B004D7C61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 040119732D48909DA2DE16E2 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 64254801C3EF00C1AF832852 /* Pods-WNXHuntForCity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Quan Gan (4MSLTPG67F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZQNBAU4E8A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WNXHuntForCity/PrefixHeader.pch";
 				INFOPLIST_FILE = WNXHuntForCity/Info.plist;
@@ -1336,7 +1364,7 @@
 				FAAAB1561B400E9B004D7C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FAAAB1571B400E9B004D7C61 /* Build configuration list for PBXNativeTarget "WNXHuntForCity" */ = {
 			isa = XCConfigurationList;
@@ -1345,7 +1373,7 @@
 				FAAAB1591B400E9B004D7C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FAAAB15A1B400E9B004D7C61 /* Build configuration list for PBXNativeTarget "WNXHuntForCityTests" */ = {
 			isa = XCConfigurationList;
@@ -1354,7 +1382,7 @@
 				FAAAB15C1B400E9B004D7C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
